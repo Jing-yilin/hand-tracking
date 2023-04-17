@@ -1,5 +1,10 @@
 # 手部追踪
 
+requirements:
+1. python >= 3.10 
+2. cv 
+3. mediapipe
+
 本项目基于cv2和mediapipe实现手部追踪监测。
 
 实现效果;
