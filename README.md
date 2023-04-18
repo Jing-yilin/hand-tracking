@@ -1,11 +1,11 @@
-# 手部追踪
+# HandTracking
 
 requirements:
 1. python >= 3.10 
 2. cv 
 3. mediapipe
 
-本项目基于cv2和mediapipe实现手部追踪监测。
+This project is based on cv2 and mediapipe to achieve hand tracking and monitoring.
 
-实现效果;
-![](https://img.jing10.top/uPic/202304171435031681713303Odgkdj.png)
+Implementation effect:
+![effect1](https://img.jing10.top/uPic/202304171435031681713303Odgkdj.png)

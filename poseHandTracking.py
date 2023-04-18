@@ -1,5 +1,5 @@
 """
-同时检测身体姿态和手部姿势
+Simultaneously detect body posture and hand posture.
 """
 
 import cv2
