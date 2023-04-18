@@ -20,7 +20,7 @@ frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 
 # 初始化视频写入器，用于将检测结果保存为输出视频
-# out = cv2.VideoWriter('output.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 30, (frame_width, frame_height))
+out = cv2.VideoWriter('output.mp4', cv2.VideoWriter_fourcc(*'MP4V'), 30, (frame_width, frame_height))
 
 # 初始化姿势检测和手势检测对象并设置参数
 with mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5,
